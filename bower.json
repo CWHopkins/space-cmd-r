@@ -1,0 +1,20 @@
+{
+  "name": "space-cmd-r",
+  "version": "0.0.1",
+  "authors": ["CWHopkins <cwh.hopkins@gmail.com>"],
+  "description": "A simple game project using Phaser and ES6",
+  "main": "src/main.js",
+  "license": "MIT",
+  "private": false,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "lodash": "~2.4.1",
+    "phaser-official": "~2.2.2"
+  }
+}

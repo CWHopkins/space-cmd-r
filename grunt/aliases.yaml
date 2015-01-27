@@ -1,0 +1,14 @@
+default:
+  - dev
+
+server:
+  - open:server
+  - connect:server
+
+dev:
+  - clean:build
+  - browserify:dev
+  - imagemin:build
+  - copy:build
+  - notify:build
+  - clean:tmp
